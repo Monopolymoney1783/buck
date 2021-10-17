@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AppIDName</key>
-	<string>Example</string>
+	<string>ShawPasspoint</string>
 	<key>ApplicationIdentifierPrefix</key>
 	<array>
 	<string>ABCDE12345</string>
@@ -43,13 +43,15 @@
 		<key>get-task-allow</key>
 		<false/>
 		<key>application-identifier</key>
-		<string>ABCDE12345.com.example.TestApp</string>
+		<string>592C0700CB1E2BA4A490899CB3407807.cloudpath.net.credential</string>
 		<key>com.apple.security.application-groups</key>
 		<array>
-			<string>group.com.example</string>
+			<string>hotspot.wifi.shaw.ca</string>
 		</array>
 		<key>com.apple.developer.team-identifier</key>
 		<string>12345ABCDE</string>
+                <key>com.apple.developer.networking.HotspotConfiguration</key>
+                <false/>
     <key>com.apple.developer.icloud-container-development-container-identifiers</key>
     <array>
       <string>iCloud.com.appleseedinc.MyProject</string>
@@ -71,7 +73,7 @@
 	<key>TimeToLive</key>
 	<integer>240</integer>
 	<key>UUID</key>
-	<string>00000000-0000-0000-0000-000000000000</string>
+	<string>592C0700-CB1E-2BA4-A490-899CB3407804</string>
 	<key>Version</key>
 	<integer>1</integer>
 </dict>
